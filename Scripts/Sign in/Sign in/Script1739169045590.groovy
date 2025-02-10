@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('http://www.automationpractice.pl/index.php')
+
+WebUI.click(findTestObject('Sign in/Hyperlink_Sign in'))
+
+WebUI.setText(findTestObject('Sign in/Input_Email'), 'QAdata1@test.com')
+
+WebUI.setText(findTestObject('Sign in/Input_Password'), 'Pelepens123')
+
+WebUI.click(findTestObject('Sign in/Button_Sign in'))
+
+WebUI.click(findTestObject('Sign in/Hyperlink_Sign out'))
+

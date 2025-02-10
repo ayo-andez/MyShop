@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='Submit:Login']</value>
+         <value>//button[@id='SubmitLogin']</value>
       </entry>
       <entry>
          <key>BASIC</key>
