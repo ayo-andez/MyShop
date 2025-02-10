@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='contact-link']//preceding-sibling::div//a</value>
+         <value>//div[@id='contact-link']//preceding-sibling::div//following-sibling::div//a</value>
       </entry>
       <entry>
          <key>BASIC</key>
