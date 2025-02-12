@@ -31,5 +31,7 @@ WebUI.click(findTestObject('Sign in/Button_Sign in'))
 
 WebUI.click(findTestObject('Sign in/Hyperlink_Sign out'))
 
+WebUI.delay(2)
+
 WebUI.closeBrowser()
 
