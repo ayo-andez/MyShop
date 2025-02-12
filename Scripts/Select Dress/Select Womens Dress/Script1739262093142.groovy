@@ -19,13 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://www.automationpractice.pl/index.php')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Select WOMEN/Click_Dresses'))
 
 WebUI.check(findTestObject('Select WOMEN/Checkbox_SizeL'))
+
+WebUI.scrollFromViewportOffset(0, 0, 0, 50)
 
 WebUI.mouseOver(findTestObject('Select WOMEN/Hover_Printed Dress'))
 
 Slider = WebUI.getElementWidth(findTestObject('Select WOMEN/Drag_Price Range'))
 
-WebUI.dragAndDropByOffset(findTestObject('Select WOMEN/Drag_Price Range'), Slider*8, 0)
+WebUI.dragAndDropByOffset(findTestObject('Select WOMEN/Drag_Price Range'), Slider * 8, 0)
 
