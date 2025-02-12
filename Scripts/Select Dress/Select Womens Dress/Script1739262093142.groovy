@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Select WOMEN/Click_Dresses'))
 
 WebUI.check(findTestObject('Select WOMEN/Checkbox_SizeL'))
 
-WebUI.scrollFromViewportOffset(0, 0, 0, 50)
+WebUI.scrollToElement(findTestObject('null'), Scroll*50)
 
 WebUI.mouseOver(findTestObject('Select WOMEN/Hover_Printed Dress'))
 
