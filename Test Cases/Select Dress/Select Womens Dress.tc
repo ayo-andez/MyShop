@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Womens Dress</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d029858-58a3-4ed4-ad46-77dddf023fd1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78675b0c-d388-4496-8a58-8bea1e418709</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>78675b0c-d388-4496-8a58-8bea1e418709</id>
+      <masked>false</masked>
+      <name>Slider</name>
+   </variable>
+</TestCaseEntity>
