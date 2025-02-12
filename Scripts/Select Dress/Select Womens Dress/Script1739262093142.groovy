@@ -27,5 +27,5 @@ WebUI.mouseOver(findTestObject('Select WOMEN/Hover_Printed Dress'))
 
 Slider = WebUI.getElementWidth(findTestObject('Select WOMEN/Drag_Price Range'))
 
-WebUI.dragAndDropByOffset(findTestObject('Select WOMEN/Drag_Price Range'), Slider*4, 0)
+WebUI.dragAndDropByOffset(findTestObject('Select WOMEN/Drag_Price Range'), Slider*8, 0)
 
